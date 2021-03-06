@@ -1,0 +1,47 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>farm_company_v1</Name>
+    <Description>&lt;No hay ninguna descripción disponible&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>farm_company_v1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="farm_company_v1.csproj" File="farm_company_v1.csproj" ReplaceParameters="true">
+      <Folder Name="DAO" TargetFolderName="DAO">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dao_Crop.cs">Dao_Crop.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dao_Farmer.cs">Dao_Farmer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dao_Product.cs">Dao_Product.cs</ProjectItem>
+      </Folder>
+      <Folder Name="DTO" TargetFolderName="DTO">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dto_Crop.cs">Dto_Crop.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dto_Farmer.cs">Dto_Farmer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dto_Product.cs">Dto_Product.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Imagenes requerimientos o funcionalidades" TargetFolderName="Imagenes requerimientos o funcionalidades">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Caso 1 Codigo.png">Caso 1 Codigo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="caso 1.png">caso 1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Caso 2 Codigo.png">Caso 2 Codigo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="caso 2.png">caso 2.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Caso 3 Codigo parte 1.png">Caso 3 Codigo parte 1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="caso 3.png">caso 3.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Casp 3 Codigo parte 2.png">Casp 3 Codigo parte 2.png</ProjectItem>
+      </Folder>
+      <Folder Name="Logic" TargetFolderName="Logic">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BusinessLogicTheFarmersCompany.cs">BusinessLogicTheFarmersCompany.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CreateCropsFarmers.cs">CreateCropsFarmers.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CreateFarmers.cs">CreateFarmers.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CreateProducts.cs">CreateProducts.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
