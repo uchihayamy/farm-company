@@ -16,15 +16,10 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="farm_company_v1.csproj" File="farm_company_v1.csproj" ReplaceParameters="true">
-      <Folder Name="DAO" TargetFolderName="DAO">
-        <ProjectItem ReplaceParameters="true" TargetFileName="Dao_Crop.cs">Dao_Crop.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Dao_Farmer.cs">Dao_Farmer.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Dao_Product.cs">Dao_Product.cs</ProjectItem>
-      </Folder>
-      <Folder Name="DTO" TargetFolderName="DTO">
-        <ProjectItem ReplaceParameters="true" TargetFileName="Dto_Crop.cs">Dto_Crop.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Dto_Farmer.cs">Dto_Farmer.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Dto_Product.cs">Dto_Product.cs</ProjectItem>
+      <Folder Name="datos" TargetFolderName="datos">
+        <ProjectItem ReplaceParameters="true" TargetFileName="dt_Crop.cs">dt_Crop.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dt_Farmer.cs">dt_Farmer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dt_Product.cs">dt_Product.cs</ProjectItem>
       </Folder>
       <Folder Name="Imagenes requerimientos o funcionalidades" TargetFolderName="Imagenes requerimientos o funcionalidades">
         <ProjectItem ReplaceParameters="false" TargetFileName="Caso 1 Codigo.png">Caso 1 Codigo.png</ProjectItem>
@@ -36,10 +31,15 @@
         <ProjectItem ReplaceParameters="false" TargetFileName="Casp 3 Codigo parte 2.png">Casp 3 Codigo parte 2.png</ProjectItem>
       </Folder>
       <Folder Name="Logic" TargetFolderName="Logic">
-        <ProjectItem ReplaceParameters="true" TargetFileName="BusinessLogicTheFarmersCompany.cs">BusinessLogicTheFarmersCompany.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="CreateCropsFarmers.cs">CreateCropsFarmers.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="CreateFarmers.cs">CreateFarmers.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="CreateProducts.cs">CreateProducts.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="creaproducto.cs">creaproducto.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="crearcultivofarmer.cs">crearcultivofarmer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="crearfarmer.cs">crearfarmer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="principalcodefarmer.cs">principalcodefarmer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Sentencias" TargetFolderName="Sentencias">
+        <ProjectItem ReplaceParameters="true" TargetFileName="sen_Crop.cs">sen_Crop.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="sen_Farmer.cs">sen_Farmer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="sen_Product.cs">sen_Product.cs</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
     </Project>

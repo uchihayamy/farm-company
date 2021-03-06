@@ -9,18 +9,18 @@ namespace $safeprojectname$
     {
         static void Main(string[] args)
         {
-            CreateFarmers createFarmers = new CreateFarmers();
-            List<Dto_Farmer> Farmers = createFarmers.CreateFarmer();
+            crearfarmer createFarmers = new crearfarmer();
+            List<dt_Farmer> Farmers = createFarmers.CreateFarmer();
 
-            CreateProducts createProducts = new CreateProducts();
-            List<Dto_Product> Products = createProducts.CreateProduct();
+            creaproducto createProducts = new creaproducto();
+            List<dt_Product> Products = createProducts.CreateProduct();
 
-            CreateCropsFarmers createCropsFarmers = new CreateCropsFarmers();
-            List<Dto_Crop> Crops = createCropsFarmers.CreateCropFarmer(Products, Farmers);
+            crearcultivofarmer createCropsFarmers = new crearcultivofarmer();
+            List<dt_Crop> Crops = createCropsFarmers.CreateCropFarmer(Products, Farmers);
 
-            BusinessLogicTheFarmersCompany.PaymentValueToCapitalists(Crops, Farmers);
-            BusinessLogicTheFarmersCompany.PaymentValueToFarmers(Crops);
-            BusinessLogicTheFarmersCompany.LowestPriceSell(Crops);
+            principalcodefarmer.PaymentValueToCapitalists(Crops, Farmers);
+            principalcodefarmer.PaymentValueToFarmers(Crops);
+            principalcodefarmer.LowestPriceSell(Crops);
         }
     }
 }
